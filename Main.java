@@ -7,8 +7,6 @@ public class Main {
     BankAccountManager accM1 = new BankAccountManager();
 
     try {
-      // /* TEST CASES */
-      //
       // /* 1 */
       // acc1.deposit(-500);
 
@@ -27,7 +25,7 @@ public class Main {
       // acc1.freezeAccount();
       // acc1.withdraw(500);
 
-      // /* 6 */
+      // /* 6 & 7 */
       // --- SAMPLE TRANSACTIONS --- //
       acc1.deposit(300);
       acc1.withdraw(150);
